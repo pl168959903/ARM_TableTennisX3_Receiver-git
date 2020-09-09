@@ -1,0 +1,59 @@
+{
+    "configurations": [
+        {
+            "name": "ARM",
+            "includePath": [
+                "C:\\Keil_v5\\ARM\\ARMCC\\include",
+                "${workspaceFolder}\\include",
+                "${workspaceFolder}\\libraries\\Official\\CMSIS\\Include",
+                "${workspaceFolder}\\libraries\\Official\\Device\\Nuvoton\\Nano103\\Include",
+                "${workspaceFolder}\\libraries\\Official\\StdDriver\\inc",
+                "${workspaceFolder}\\libraries\\User\\inc",
+                "${workspaceFolder}\\libraries\\Driver\\inc",
+                "${workspaceFolder}\\libraries\\Official\\CMSIS\\Driver\\Include",
+                "${workspaceFolder}\\libraries\\Memory\\inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-arm",
+            "compilerArgs": [
+                "-xc",
+                "-std=gnu11",
+                "--target=arm-arm-none-eabi",
+                "-mcpu=cortex-m0",
+                "-c",
+                "-fno-rtti",
+                "-funsigned-char"
+            ]
+        },
+        {
+            "name": "ARM",
+            "includePath": [
+                "C:\\Keil_v5\\ARM\\ARMCC\\include",
+                "${workspaceFolder}\\include",
+                "${workspaceFolder}\\libraries\\Official\\CMSIS\\Include",
+                "${workspaceFolder}\\libraries\\Official\\Device\\Nuvoton\\Nano103\\Include",
+                "${workspaceFolder}\\libraries\\Official\\StdDriver\\inc",
+                "${workspaceFolder}\\libraries\\User\\inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

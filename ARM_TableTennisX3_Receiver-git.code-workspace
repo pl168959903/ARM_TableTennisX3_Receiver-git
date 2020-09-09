@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\ARM_TableTennisX3_Receiver"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"string": "c",
+			"initializer_list": "c"
+		}
+	}
+}
