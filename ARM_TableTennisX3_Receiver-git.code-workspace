@@ -10,7 +10,10 @@
 	"settings": {
 		"files.associations": {
 			"string": "c",
-			"initializer_list": "c"
+			"initializer_list": "c",
+			"cstring": "c",
+			"xstring": "c",
+			"xutility": "c"
 		}
 	}
 }
